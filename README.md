@@ -1,36 +1,17 @@
-# pegthing
+# Pegthing
+My own version of the Peg Thing game from the book Clojure for the brave and true, while reading through it.
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+[How to play the game](http://www.braveclojure.com/functional-programming/#Peg_Thing)
 
 ## Usage
+```
+lein repl
+(game-loop)
+```
 
-FIXME: explanation
-
-    $ java -jar pegthing-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+## Compile and run
+```
+lein compile
+lein uberjar
+java -jar ./target/uberjar/pegthing-0.1.0-SNAPSHOT-standalone.jar
+```
